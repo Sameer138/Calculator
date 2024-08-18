@@ -7,8 +7,8 @@ trigger:
 - master
 
 pool:
-  name : Alpha-Pool
-  demands: -agent.name -equals Alpha-Agent
+  name : Default
+  demands: -agent.name -equals SAMEER
 
 steps:
 - task: Maven@3
