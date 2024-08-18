@@ -84,7 +84,7 @@ public class CalculatorUI {
     public double calculate(double firstNumber, double secondNumber, char operator) {
         switch (operator) {
             case '+':
-                return firstNumber + secondNumber;
+                return firstNumber + secondNumber + 0;
             case '-':
                 return firstNumber - secondNumber;
             case '*':
